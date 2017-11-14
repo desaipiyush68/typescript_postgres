@@ -16,10 +16,10 @@ interface DBOptions {
 
 // Actual database options
 const options: DBOptions = {
-  user: 'postgres',
-  password: 'fenil68',
-  host: 'localhost',
-  database: 'lovelystay_test',
+  user: '',
+  password: '',
+  host: '',
+  database: '',
 };
 
 console.info('Connecting to the database:',
