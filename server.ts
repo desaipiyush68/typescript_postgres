@@ -134,19 +134,19 @@ if (process.argv[2] != null) {
   let args = process.argv[2].split("=");
   let argsOptions = args[0];
   let Option = args[1];
-  let opylon = new  Database();
+  let Begin = new  Database();
     
      if(argsOptions =='name'){
 
-      opylon.db(new Name,Option);
+      Begin.db(new Name,Option);
 
      }else if(argsOptions=='location'){
 
-      opylon.db(new Locations,Option);
+      Begin.db(new Locations,Option);
 
      }else{
 
-      opylon.db(new Stat,Option);
+      Begin.db(new Stat,Option);
 
      }
 
